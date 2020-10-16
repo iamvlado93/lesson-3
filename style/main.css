@@ -20,6 +20,7 @@ header {
 }
 
 .header-title {
+    padding-top: 100px;
     margin-bottom: 25px;
     padding-top: 100px;
     font-family: 'Raleway', sans-serif;
@@ -103,7 +104,7 @@ main {
 
 .header-title-footer {
     padding-top: 76px;
-    margin-bottom: 30px;
+    padding-bottom: 48px;
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
     text-transform: uppercase;
@@ -137,7 +138,7 @@ main {
 }
 
 .background-section {
-    background: url(../img/background-section.png) center no-repeat;
+    background: url(../img/background-section.png) content-box;
 }
 
 .background-mask {
@@ -152,8 +153,8 @@ main {
 }
 
 .footer-icons {
-    padding-top: 30px;
-    margin-bottom: 18px;
+    padding-top: 20px;
+    margin-bottom: 10px;
     display: inline-block;
 }
 
@@ -174,10 +175,6 @@ main {
     line-height: 16px;
     color: rgba(255, 255, 255, 0.5);
 }
-
-  
-
-
 
 
 
