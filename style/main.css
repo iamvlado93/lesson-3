@@ -1,0 +1,183 @@
+/* Default styles
+======================================= */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    width: 100%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header content
+ ======================================= */
+
+header {
+    background-color: whitesmoke;
+}
+
+.header-title {
+    margin-bottom: 25px;
+    padding-top: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #212121;
+}
+
+.line {
+    width: 64px;
+    height: 2px;
+    margin: 0 auto 30px;
+    background: #E72424 ;
+    border: 1px solid #E72424;
+}
+
+.subtitle {
+    padding-bottom: 36px;
+    color: #86878B;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Main content
+ ======================================= */
+
+main {
+    padding: 31px 0 107px;
+    font-size: 0;
+    background-color: whitesmoke;
+}
+
+.card {
+    display: inline-block;
+    width: 350px;
+    margin: 2px;
+    background-color: whitesmoke;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 29px;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+}
+
+.card-title {
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.text {
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+}
+
+.icon-lamp {
+    background: url(../img/lamp.png) no-repeat center;
+}
+
+.icon-keyboard {
+    background: url(../img/keyboard.png) no-repeat center;
+}
+
+.icon-lightning {
+    background: url(../img/lightning.png) no-repeat center;
+}
+
+/* Section content
+======================================= */
+
+.section {
+    padding: 0px 0px;
+}
+
+.header-title-footer {
+    margin-bottom: 48px;
+    padding-top: 76px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.line-footer {
+    width: 64px;
+    height: 2px;
+    margin: 0 auto 30px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.subtitle-footer {
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.download-button {
+    margin-bottom: 38px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.background-section {
+    background: url(../img/background-section.png) center;
+    background-blend-mode: lighten;
+}
+
+.background-mask {
+    background: rgba(0, 0, 0, 0.60);
+}
+
+/* Footer content
+======================================= */
+.footer {
+    padding: 0px 0px;
+    background: #000000;
+}
+
+.footer-icons {
+    padding-top: 30px;
+    margin-bottom: 18px;
+    display: inline-block;
+}
+
+.fa {
+    margin: 11px;
+    text-align: center;
+    text-decoration: none;
+    background: black;
+    color: white;
+}
+
+.letter {
+    padding-bottom: 15px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+  
+
+
+
+
